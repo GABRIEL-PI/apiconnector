@@ -45,7 +45,7 @@ class Request
         $allowCodeStyle = false;
         if ($allowCodeStyle) {
             // this is necessary to allow usage of code style for global request variables
-            check_admin_referer('api-connector-nonce');
+            \check_admin_referer('api-connector-nonce');
         }
         if (is_null($this->data)) {
             // @codingStandardsIgnoreLine
@@ -68,12 +68,18 @@ class Request
         $allowCodeStyle = false;
         if ($allowCodeStyle) {
             // this is necessary to allow usage of code style for global request variables
-            check_admin_referer('api-connector-nonce');
+            \check_admin_referer('api-connector-nonce');
         }
         if (is_null($this->data)) {
             // @codingStandardsIgnoreLine
             $this->data = array_replace_recursive($_POST, $_GET, $_REQUEST);
         }
+        
+        // Garantir que $this->data seja sempre um array
+        if (is_null($this->data)) {
+            $this->data = [];
+        }
+        
         if (is_null($key)) {
             return $this->data;
         }
@@ -106,7 +112,7 @@ class Request
      */
     public function isValidResponse($response)
     {
-        $response = wp_remote_retrieve_body($response);
+        $response = \wp_remote_retrieve_body($response);
         if (!empty($response)) {
             if (!is_array($response)) {
                 $response = json_decode($response, true);
