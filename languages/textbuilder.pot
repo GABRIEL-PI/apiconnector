@@ -1,0 +1,94 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-11 18:54+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: TextBuilder <support@textbuilder.ai>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e;"
+"esc_html_x;_x;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: Includes\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: public\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+"X-Poedit-SearchPathExcluded-3: languages\n"
+
+#: Includes/Admin/SettingsPanel.php:70 Includes/Admin/SettingsPanel.php:71
+msgid "TextBuilder"
+msgstr ""
+
+#: Includes/Admin/SettingsPanel.php:111
+msgid ""
+"Your website appears to use Basic Authentication, which is not "
+"currently compatible with Application Passwords."
+msgstr ""
+
+#: Includes/Admin/SettingsPanel.php:170
+msgid "Settings"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:2
+msgid "TextBuilder Authorized Users"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:8
+#: Includes/Admin/View/TokenTable.php:29
+#: Includes/Admin/View/TokenTable.php:78
+msgid "Name"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:11
+#: Includes/Admin/View/TokenTable.php:33
+#: Includes/Admin/View/TokenTable.php:81
+msgid "Created"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:14
+#: Includes/Admin/View/TokenTable.php:42
+#: Includes/Admin/View/TokenTable.php:84
+msgid "Last Used"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:20
+#: Includes/Admin/View/TokenTable.php:57
+#: Includes/Admin/View/TokenTable.php:68
+#: Includes/Admin/View/TokenTable.php:69
+#: Includes/Admin/View/TokenTable.php:90
+msgid "Revoke"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:49
+msgid "Not used yet!"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:108
+msgid "Revoke all application passwords"
+msgstr ""
+
+#: Includes/Api/RestAuthenticationController.php:191
+msgid "User token is invalid."
+msgstr ""
+
+#: Includes/Api/RestAuthenticationController.php:236
+msgid "The API token provided does not have write permissions."
+msgstr ""
+
+#: Includes/Api/RestAuthenticationController.php:244
+msgid "Unknown request method."
+msgstr ""
+
+#: Includes/Api/RestAuthenticationController.php:273
+msgid ""
+"TextBuilder API. Use a consumer key in the username field and a "
+"consumer secret in the password field."
+msgstr ""

@@ -1,0 +1,144 @@
+# Copyright (C) 2023 Seu Nome
+# This file is distributed under the same license as the API Connector plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: API Connector 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/api-connector\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-19T12:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: api-connector\n"
+
+#. Plugin Name of the plugin
+msgid "API Connector"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://seusite.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Conecte seu WordPress a serviços externos via API REST personalizada."
+msgstr ""
+
+#. Author of the plugin
+msgid "Seu Nome"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://seusite.com/"
+msgstr ""
+
+#: Includes/Admin/SettingsPanel.php:80
+msgid "API Connector"
+msgstr ""
+
+#: Includes/Admin/SettingsPanel.php:123
+msgid "Conecte seu WordPress a serviços externos via API REST personalizada."
+msgstr ""
+
+#: Includes/Admin/SettingsPanel.php:127
+msgid "Gerar Token de API"
+msgstr ""
+
+#: Includes/Admin/SettingsPanel.php:133
+msgid "Endpoints da API"
+msgstr ""
+
+#: Includes/Admin/SettingsPanel.php:134
+msgid "Use os seguintes endpoints para interagir com seu WordPress:"
+msgstr ""
+
+#: Includes/Admin/SettingsPanel.php:136
+msgid "Gerenciar posts"
+msgstr ""
+
+#: Includes/Admin/SettingsPanel.php:137
+msgid "Gerenciar mídia"
+msgstr ""
+
+#: Includes/Admin/SettingsPanel.php:138
+msgid "Listar categorias"
+msgstr ""
+
+#: Includes/Admin/SettingsPanel.php:139
+msgid "Listar tags"
+msgstr ""
+
+#: Includes/Admin/SettingsPanel.php:141
+msgid "Autenticação"
+msgstr ""
+
+#: Includes/Admin/SettingsPanel.php:142
+msgid "Use autenticação básica HTTP com seu nome de usuário e o token gerado como senha."
+msgstr ""
+
+#: Includes/Admin/SettingsPanel.php:193
+msgid "Settings"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:1
+msgid "Tokens de API Autorizados"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:7
+#: Includes/Admin/View/TokenTable.php:77
+msgid "Nome"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:10
+#: Includes/Admin/View/TokenTable.php:80
+msgid "Criado em"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:13
+#: Includes/Admin/View/TokenTable.php:83
+msgid "Último uso"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:16
+#: Includes/Admin/View/TokenTable.php:86
+msgid "Token"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:19
+#: Includes/Admin/View/TokenTable.php:89
+msgid "Revogar"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:47
+msgid "Nunca"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:61
+msgid "Revogar"
+msgstr ""
+
+#: Includes/Admin/View/TokenTable.php:109
+msgid "Revogar todos os tokens"
+msgstr ""
+
+#: Includes/Api/RestAuthenticationController.php:173
+msgid "User token is invalid."
+msgstr ""
+
+#: Includes/Api/RestAuthenticationController.php:211
+msgid "The API token provided does not have write permissions."
+msgstr ""
+
+#: Includes/Api/RestAuthenticationController.php:219
+msgid "Unknown request method."
+msgstr ""
+
+#: Includes/Api/RestAuthenticationController.php:243
+msgid "API Connector. Use a consumer key in the username field and a consumer secret in the password field."
+msgstr ""
+
+#: Includes/AjaxController.php:77
+msgid "Unauthorized action"
+msgstr "" 
